@@ -1,1 +1,21 @@
 /** Home Page */
+
+#ae3-slider {
+  .swiper-slide-contents {
+    margin-left: 4.618em;
+    margin-bottom: 2.618em;
+  }
+  .elementor-button {
+    background-color: $yellow;
+    border-color: $yellow;
+    color: $black;
+  }
+}
+
+#our-services {
+  .elementor-divider-separator::before,
+  .elementor-divider-separator::after {
+    border-color: $blue-dark;
+    border-width: 2px;
+  }
+}

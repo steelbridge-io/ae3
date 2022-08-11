@@ -1,3 +1,24 @@
+/** Colors */
+/** Buttons */
+.elementor-button {
+  border-radius: 0;
+}
+
 /** Home Page */
+#ae3-slider .swiper-slide-contents {
+  margin-left: 4.618em;
+  margin-bottom: 2.618em;
+}
+#ae3-slider .elementor-button {
+  background-color: #FFD100;
+  border-color: #FFD100;
+  color: #000000;
+}
+
+#our-services .elementor-divider-separator::before,
+#our-services .elementor-divider-separator::after {
+  border-color: #1F387A;
+  border-width: 2px;
+}
 
 /*# sourceMappingURL=custom.css.map */
