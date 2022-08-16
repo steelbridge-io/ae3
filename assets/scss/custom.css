@@ -21,4 +21,18 @@
   border-width: 2px;
 }
 
+/** Animations */
+#sustainable-design .ae3_animation,
+#architecture_animation .ae3_animation,
+#construction_animation .ae3_animation,
+#real_estate_animation .ae3_animation {
+  visibility: hidden;
+}
+#sustainable-design:hover .ae3_animation,
+#architecture_animation:hover .ae3_animation,
+#construction_animation:hover .ae3_animation,
+#real_estate_animation:hover .ae3_animation {
+  visibility: visible;
+}
+
 /*# sourceMappingURL=custom.css.map */

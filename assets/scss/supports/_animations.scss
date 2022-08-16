@@ -1,0 +1,15 @@
+/** Animations */
+
+#sustainable-design,
+#architecture_animation,
+#construction_animation,
+#real_estate_animation {
+  .ae3_animation {
+    visibility: hidden;
+  }
+  &:hover {
+    .ae3_animation {
+      visibility: visible;
+    }
+  }
+}
