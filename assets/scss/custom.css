@@ -35,4 +35,12 @@
   visibility: visible;
 }
 
+/** Globals */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: block;
+  width: 100% !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
