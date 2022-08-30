@@ -64,4 +64,10 @@ ul.archive-ul li a {
   font-weight: 500;
 }
 
+/** Nav */
+#navigation-cont {
+  margin: 0 auto;
+  display: block;
+}
+
 /*# sourceMappingURL=custom.css.map */
