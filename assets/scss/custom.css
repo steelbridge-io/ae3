@@ -43,4 +43,25 @@
   width: 100% !important;
 }
 
+/** Archive */
+ul.archive-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+ul.archive-ul li:nth-child(n+1) {
+  margin-left: 1.5em;
+}
+ul.archive-ul li {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+ul.archive-ul li a {
+  color: #0B71C3 !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,21 @@
+/** Archive */
+
+ul.archive-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    li:nth-child(n+1) {
+      margin-left: 1.5em;
+    }
+    li {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      a {
+        color: #0B71C3 !important;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+}
